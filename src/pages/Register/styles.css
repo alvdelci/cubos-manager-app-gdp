@@ -1,0 +1,17 @@
+.step-label {
+    color: #0E8750;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23.4px;
+}
+
+.step-description {
+    color: #3F3F55;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23.4px;
+}

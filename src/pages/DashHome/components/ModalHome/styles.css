@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.containerModalHome {
+  width: 92px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-color: white;
+  border-radius: 8px;
+}
+
+.containerEditAndExit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 97px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.containerExitHome a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #747488;
+}
+
+.containerEditHome a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1px;
+  text-decoration: none;
+  color: #747488;
+}

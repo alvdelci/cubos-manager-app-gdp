@@ -1,0 +1,182 @@
+.close-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    fill: rgba(145, 154, 150, 0.30);
+    backdrop-filter: blur(2px);
+}
+
+.customer-register-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 2vh;
+    right: calc(50% - 265px);
+    bottom: auto;
+    padding: 40px 56px;
+    box-shadow: 10px 20px 40px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 1;
+}
+
+.customer-register-container .title {
+    display: flex;
+}
+
+.customer-register-container .title img {
+    margin-right: 10px;
+}
+
+.customer-register-container .title h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    color: #3F3F55;
+}
+
+.customer-register-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.customer-register-container form label {
+    margin-top: 8px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    color: #3F3F55;
+}
+
+.customer-register-container form input {
+    display: flex;
+    padding: 10px 14px;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    background: #FFF;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #9B9BB2;
+}
+
+.customer-register-container form input:focus {
+    outline: none
+}
+
+.customer-register-container form span {
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #E70000;
+}
+
+.customer-register-container form .cpf-phone {
+    display: flex;
+}
+
+.customer-register-container form .cpf-phone div:first-child {
+    margin-right: 24px;
+}
+
+.customer-register-container form .cep-bairro {
+    display: flex;
+}
+
+.customer-register-container form .cep-bairro div:first-child {
+    margin-right: 24px;
+}
+
+.customer-register-container form .cidade-uf {
+    display: flex;
+    justify-content: end;
+}
+
+.customer-register-container form .cidade-uf div:first-child {
+    margin-right: 24px;
+    width: 100%;
+}
+
+.customer-register-container form .cidade-uf .uf {
+    width: 80%;
+    align-self: flex-end;
+}
+
+.customer-register-container form .cpf-phone>div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.customer-register-container form .cep-bairro>div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.customer-register-container form .cidade-uf>div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.customer-register-container form .buttons {
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.customer-register-container form .buttons button {
+    width: 100%;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #0E8750;
+}
+
+.customer-register-container form .buttons .cancel {
+    margin-right: 12px;
+    color: #0E8750;
+    border-radius: 10px;
+    border: 1px solid #DEDEE9;
+    background-color: #F8F8F9;
+    color: #0E8750;
+    cursor: pointer;
+}
+
+
+.customer-register-container form .buttons .submit {
+    margin-left: 12px;
+    color: #F8F8F9;
+    border-radius: 10px;
+    border: 1px solid #DA0175;
+    background-color: #DA0175;
+    color: #F8F8F9;
+    cursor: pointer;
+}
+
+.icon-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    cursor: pointer;
+}

@@ -1,0 +1,146 @@
+.pageRegister {
+    display: flex;
+}
+
+.containerLeftLogin {
+    width: 500px;
+    height: 894px;
+    min-height: 100vh;
+    background: #F0F0F5;
+}
+
+.containerLeftLoginimg {
+    width: 500px;
+    height: 972px;
+    flex-shrink: 0;
+}
+
+.containerRightLogin {
+    height: 894px;
+    min-height: 100vh;
+    min-width: calc(100% - 500px);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: #F8F8F9;
+}
+
+.containerFormLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 340px;
+    gap: 20px;
+}
+
+.containerFormLogin h3 {
+    margin-bottom: 12px;
+    color: #343447;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.2px;
+}
+
+.containerInputLogin p {
+    color: #344054;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.containerInputLogin {
+    width: 368px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    align-self: stretch;
+}
+
+.containerInputLogin input {
+    width: 368px;
+    height: 34px;
+    display: flex;
+    padding: 10px 14px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    color: #667085;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.containerLinkRegister {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.containerFormLogin Button {
+    display: flex;
+    width: 160px;
+    padding: 4px 40px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 10px;
+    border-color: #da0175;
+    color: #F8F8F9;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #DA0175;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.containerFormLogin Button:hover {
+    opacity: 0.9;
+}
+
+.returnLoginRegister {
+    color: #3F3F55;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.4px;
+}
+
+.returnLoginRegisterSpan {
+    color: #DA0175;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23.4px;
+    text-decoration-line: underline;
+}

@@ -1,0 +1,85 @@
+.close-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  fill: rgba(145, 154, 150, 0.3);
+  backdrop-filter: blur(2px);
+}
+
+.charge-register-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30vw;
+  padding: 40px 56px;
+  box-shadow: 10px 20px 40px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 1;
+}
+
+.charge-register-container .title {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.charge-register-container .title img {
+  margin-right: 10px;
+}
+
+.charge-register-container .title h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  color: #3f3f55;
+}
+
+.charge-register-container .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.charge-register-container .content label {
+  margin-top: 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #3f3f55;
+}
+
+.charge-register-container .content span {
+  margin-bottom: 5px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #3f3f55;
+}
+
+.charge-register-container .content .section {
+  display: flex;
+}
+
+.charge-register-container .content .info-section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.icon-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  cursor: pointer;
+}
